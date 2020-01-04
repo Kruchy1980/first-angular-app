@@ -1,0 +1,7 @@
+<ul>
+  <li *ngFor="let name of names">
+    <!-- 1. render the user item to user list instead of text hello {{names}} -->
+    <!-- Whenever we prepare input in item component now we nee to pass the attribute name as array tothe item component -->
+    <app-user-item [name]='name'></app-user-item>
+  </li>
+</ul>
