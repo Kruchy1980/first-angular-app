@@ -1,10 +1,10 @@
-import { BrowserModule } from '@angular/platform-browser';
-import { NgModule } from '@angular/core';
+import { BrowserModule } from '@angular/platform-browser'
+import { NgModule } from '@angular/core'
 
-import { AppComponent } from './app.component';
-import { HelloWorldComponent } from './hello-world/hello-world.component';
-import { UserItemComponent } from './user-item/user-item.component';
-import { UserListComponent } from './user-list/user-list.component';
+import { AppComponent } from './app.component'
+import { HelloWorldComponent } from './hello-world/hello-world.component'
+import { UserItemComponent } from './user-item/user-item.component'
+import { UserListComponent } from './user-list/user-list.component'
 
 @NgModule({
   declarations: [
@@ -13,10 +13,8 @@ import { UserListComponent } from './user-list/user-list.component';
     UserItemComponent,
     UserListComponent
   ],
-  imports: [
-    BrowserModule
-  ],
+  imports: [BrowserModule],
   providers: [],
   bootstrap: [AppComponent]
 })
-export class AppModule { }
+export class AppModule {}
