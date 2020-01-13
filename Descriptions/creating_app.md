@@ -26,11 +26,10 @@ ng help [options]
 
 # Finally we can create the angular application by:
 
-ng new angular-hello-world - ng new - creqate new
-angular - angular app
--hello-world - name of the application
+ng new angular-hello-world - ng new - create new
+angular-hello-world - name of the application
 
-ATTENTION - as you can see the type of application and it's name is needed to be written together separated by dashes '-'.
+ATTENTION - as you can see the type of application name is needed to be written together separated by dashes '-'.
 
 ##### Than it is needed to switch the folder to created one ( angular-hello- world)
 
