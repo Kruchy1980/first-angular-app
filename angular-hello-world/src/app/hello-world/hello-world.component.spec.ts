@@ -1,25 +1,26 @@
-import { async, ComponentFixture, TestBed } from '@angular/core/testing';
+//On the top of any component we need to import needed stuffs as other componentss, libraries or other thingds used in application in a specific component
 
-import { HelloWorldComponent } from './hello-world.component';
+import { async, ComponentFixture, TestBed } from '@angular/core/testing'
+
+import { HelloWorldComponent } from './hello-world.component'
 
 describe('HelloWorldComponent', () => {
-  let component: HelloWorldComponent;
-  let fixture: ComponentFixture<HelloWorldComponent>;
+  let component: HelloWorldComponent
+  let fixture: ComponentFixture<HelloWorldComponent>
 
   beforeEach(async(() => {
     TestBed.configureTestingModule({
-      declarations: [ HelloWorldComponent ]
-    })
-    .compileComponents();
-  }));
+      declarations: [HelloWorldComponent]
+    }).compileComponents()
+  }))
 
   beforeEach(() => {
-    fixture = TestBed.createComponent(HelloWorldComponent);
-    component = fixture.componentInstance;
-    fixture.detectChanges();
-  });
+    fixture = TestBed.createComponent(HelloWorldComponent)
+    component = fixture.componentInstance
+    fixture.detectChanges()
+  })
 
   it('should create', () => {
-    expect(component).toBeTruthy();
-  });
-});
+    expect(component).toBeTruthy()
+  })
+})
